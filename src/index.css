@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-midnight: #070A12;
+  --color-midnight-card: #0D1322;
+  --color-midnight-surface: #121A2D;
+  --color-midnight-border: #1E293B;
+
+  --color-cobalt: #1D4ED8;
+  --color-cobalt-light: #2563EB;
+  --color-cobalt-glow: #1E40AF;
+
+  --color-acid: #CCFF00;
+  --color-acid-glow: #D4FF00;
+  --color-acid-dark: #A3E635;
+}
+
+/* Custom scrollbars for dark midnight surfaces */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #070A12;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}

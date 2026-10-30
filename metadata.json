@@ -1,0 +1,7 @@
+{
+  "name": "RailMate — Smart Train & Class Timetable Assistant",
+  "description": "Smart commuter assistant for college students matching train schedules with lecture timings, station transit duration, and delay simulations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
